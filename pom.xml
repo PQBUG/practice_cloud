@@ -5,8 +5,12 @@
     <groupId>com.imooc</groupId>
     <artifactId>spring-cloud-course</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>spring-cloud-course</name>
     <description>spring-cloud-course</description>
+    <modules>
+        <module>course-service</module>
+    </modules>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
